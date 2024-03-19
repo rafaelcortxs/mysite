@@ -1,0 +1,42 @@
+.tecContainer {
+  background: linear-gradient(90deg, #269aff 0%, #0086ff 100%);
+padding: 1.5rem;
+  margin-top: 5rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.tecButton {
+  padding: 10px 40px;
+  display: flex;
+  margin-top: 2rem;
+  border: 1.5px solid transparent;
+  border-radius: 200px;
+  background: #ffffff;
+  font-weight: 500;
+  transition: all 0.5s ease;
+}
+.tecButton:hover {
+  background: transparent;
+  border: 1.5px solid #ffffff;
+  color: #ffffff;
+}
+
+.tecBox {
+
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.tecBox h2 {
+  font-size: 4rem;
+}
+
+@media (max-width: 769px) {
+  .tecContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+}

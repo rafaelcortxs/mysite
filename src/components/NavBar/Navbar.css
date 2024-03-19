@@ -1,0 +1,133 @@
+.navWrapper{
+    background: transparent;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+ 
+    padding: 0rem 0;
+    
+
+
+}
+
+.navContent{
+
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.logo{
+    width: 12rem;
+    height: auto;
+}
+
+.navContent ul{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.navContent li {
+    margin: 0 1.5em;
+}
+
+.menuItem{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    cursor: pointer;
+}
+
+.menuItem::before{
+    content: '';
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(90deg, #269aff 0%, #0086FF 100%);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: -0.5rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.5s ease;
+}
+
+.menuItem:hover::before{
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1 ;
+}
+
+.menuContact{
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    background: linear-gradient(90deg, #269aff 0%, #0086FF 100%);
+    padding: 0.6rem 2rem;
+    outline: 1.5px solid transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border-radius: 100px;
+
+}
+
+
+.menuContact:hover{
+    background: transparent;
+    color: #000000;
+    outline: 1.5px solid #0086FF;
+    border-radius: 100px;
+    
+}
+
+
+.menuMobile{
+   
+   width: 3rem;
+   height: 3rem;
+   font-size: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: none;
+   border-radius: 0.4rem;
+   color: #fff;
+   background: linear-gradient(90deg, #269aff 0%, #0086FF 100%);
+   line-height: 0;
+   cursor: pointer;
+   transition: all 0.5s ease;
+   display: none;
+}
+
+.menuMobile:hover{
+    color: #000000;
+    background: transparent;
+    border: 1px solid #0086FF ;
+}
+
+@media (max-width: 769px){
+    .menuMobile{
+        display: block;
+    }
+
+    .navContent ul{
+        display: none;
+    }
+}
+
+@media (max-width:1325px){
+    .navWrapper{
+        padding: 0 2rem;
+    }
+}

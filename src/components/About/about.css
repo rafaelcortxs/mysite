@@ -1,0 +1,73 @@
+.aboutContainer h2 {
+  font-size: 2rem;
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+.aboutItens {
+  margin-top: 50px;
+  display: flex;
+  gap: 2rem;
+
+}
+
+.aboutItem {
+  background: #0086ff;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  transition: 0.7s ease;
+  border: 2px solid transparent;
+  background: transparent;
+ 
+}
+
+.aboutItem h3 {
+  font-size: 20px;
+  font-weight: 400;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.abouIcon i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  width: 42px;
+  height: 42px;
+  border: 20px;
+  margin-bottom: 15px;
+  color: #0086ff;
+  font-size: 100px;
+  padding-bottom: 2rem;
+}
+
+.aboutButton {
+  margin-top: 1rem;
+  background: linear-gradient(90deg, #269aff 0%, #0086ff 100%);
+  padding: 0.6rem 2rem;
+  display: flex;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 200px;
+  border: 1.5px solid transparent;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.aboutButton:hover {
+  background: transparent;
+  color: #000000;
+  outline: 1.5px solid #0086ff;
+  border-radius: 100px;
+}
+
+@media (max-width: 769px) {
+  .aboutItens {
+    flex-direction: column;
+  }
+
+}
