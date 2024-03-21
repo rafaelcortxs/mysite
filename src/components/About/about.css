@@ -19,7 +19,7 @@
   transition: 0.7s ease;
   border: 2px solid transparent;
   background: transparent;
- 
+  border: 1.5px solid #0086ff;
 }
 
 .aboutItem h3 {
@@ -29,19 +29,22 @@
   text-align: center;
   color: #000000;
 }
+ .aboutItem p{
+  text-align: center;
+ }
 
 .abouIcon i {
   display: flex;
   align-items: center;
   justify-content: center;
   background: transparent;
-  width: 42px;
+  /* width: 42px;
   height: 42px;
-  border: 20px;
-  margin-bottom: 15px;
+  border: 20px; */
+  margin-bottom: 0px;
   color: #0086ff;
   font-size: 100px;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
 }
 
 .aboutButton {
@@ -69,5 +72,8 @@
   .aboutItens {
     flex-direction: column;
   }
+
+  .aboutContainer h2{ text-align: center;}
+  
 
 }

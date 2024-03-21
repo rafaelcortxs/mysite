@@ -6,6 +6,7 @@ padding: 1.5rem;
   display: flex;
   align-items: center;
   position: relative;
+  text-align: center;
 }
 
 .tecButton {

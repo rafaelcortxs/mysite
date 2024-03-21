@@ -1,0 +1,50 @@
+.portifolioContainer h2{
+  font-size: 2rem;
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+
+.portifolioItens{
+  display: flex;
+  gap: 2em;
+
+}
+
+.portifolioItens img{
+  width: 300px;
+}
+
+.portifolioButton{
+  margin-top: 1rem;
+  background: linear-gradient(90deg, #269aff 0%, #0086ff 100%);
+  padding: 0.6rem 2rem;
+  display: flex;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 200px;
+  border: 1.5px solid transparent;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.portifolioButton:hover{
+  background: transparent;
+  color: #000000;
+  outline: 1.5px solid #0086ff;
+  border-radius: 100px;
+}
+
+
+@media (max-width:769px){
+
+
+  .portifolioContainer h2{ text-align: center; }
+
+
+
+  .portifolioItens{
+    flex-direction: column;
+  }
+}

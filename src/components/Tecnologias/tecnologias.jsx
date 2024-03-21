@@ -12,7 +12,7 @@ const tecnologias = () => {
           </h2>
 
         </div>
-        <button className="tecButton"> Saiba Mais </button>
+        {/* <button className="tecButton"> Saiba Mais </button> */}
       </div>
     </div>
   );

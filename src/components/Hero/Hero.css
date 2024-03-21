@@ -52,36 +52,15 @@
 
 }
 
-/* .heroContainer::after, .heroContainer::before{
-    width: 30rem;
-    height: 30rem;
-    content: "";
-    border-radius: 20rem;
-    position: absolute;
-    z-index: -1;
-    filter: blur(255px);
-}
-
-.heroContainer::after{
-
-    background: #F24D1D;
-    top: -3rem;
-    left: -5rem;
-}
 
 .heroContainer::before{
 
     background: #0086FF;
     bottom: 3rem;
     right: 0rem;
-} */
-/* .heroImg{
-    display: flex;
-    max-width: 10px;
-    z-index: -1;
-    top: 1rem;
-   
-} */
+} 
+
+
 
 @media (max-width: 769px){
     .heroContainer{
