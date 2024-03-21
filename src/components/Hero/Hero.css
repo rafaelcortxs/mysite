@@ -62,8 +62,12 @@
 
 
 
-@media (max-width: 769px){
-    .heroContainer{
-        flex-direction: column;
+@media (max-width:769px){
+    .heroContainer  {
+        display: none;
+    }
+
+    .heroContainer span{
+       
     }
 }

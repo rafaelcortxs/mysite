@@ -11,7 +11,7 @@ function Portifolio() {
         <img src={Uno} alt=""/>
         <img src={Uno} alt=""/>
       </div>
-    <button className="portifolioButton">TESTE</button>
+    <button className="portifolioButton"><i class='bx bxl-github'></i></button>
     </div>
   );
 }
