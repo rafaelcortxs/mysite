@@ -25,6 +25,8 @@
     -webkit-text-fill-color: transparent;
  
 }
+
+
 .heroContent p{
     width: 50%;
     font-size: 1rem;
@@ -63,11 +65,7 @@
 
 
 @media (max-width:769px){
-    .heroContainer  {
-        display: none;
-    }
-
-    .heroContainer span{
-       
+    .heroContent h2{
+    font-size: 40px;
     }
 }

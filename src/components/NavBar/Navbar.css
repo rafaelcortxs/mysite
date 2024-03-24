@@ -3,8 +3,7 @@
     position: relative;
     top: 0;
     z-index: 1;
-    backdrop-filter: blur(10px);
- 
+    backdrop-filter: blur(0px);
     padding: 0rem 0;
     
 
@@ -21,10 +20,17 @@
     padding: 1rem 0;
 }
 
-.logo{
-    width: 12rem;
-    height: auto;
+.logo a{
+    text-decoration: none;
+    background: linear-gradient(90deg, #269aff 0%, #0086FF 100%);
+    background-size:200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.2rem;   
 }
+
+
+
 
 .navContent ul{
     display: flex;

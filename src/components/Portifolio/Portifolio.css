@@ -1,55 +1,88 @@
-.portifolioContainer h2{
+.portifolioContainer h2 {
   font-size: 2rem;
   margin-top: 40px;
   font-weight: 500;
 }
 
-
-.portifolioItens{
+.portifolioItens {
   margin-top: 40px;
   display: flex;
-  gap: 2em;
-
 }
 
-.portifolioItens img{
-  width: 300px;
-  border: 2px solid #0086ff;
-  border-radius: 20px;
-  
+.portifolioItens img {
+  width: 320px;
+  border: 1.5px solid #0086ff; 
+  border-radius: 10px;
 }
 
-.portifolioButton{
-  margin-top: 1rem;
-  background: linear-gradient(90deg, #269aff 0%, #0086ff 100%);
-  padding: 0.6rem 2rem;
+
+
+.portifolioButton {
+  position: absolute;
   display: flex;
-  text-align: center;
-  color: #fff;
-  font-weight: 500;
-  border-radius: 200px;
+  left: 76%;
+  top: 89%;
+  background: linear-gradient(90deg, #269aff 0%, #0086FF 100%);
+  padding: 10px 20px;
+  border-radius: 100px;
   border: 1.5px solid transparent;
-  cursor: pointer;
-  transition: all 0.5s ease;
-  font-size: 30px;
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.5s;
+
 }
 
-.portifolioButton:hover{
+.portifolioButton2{
+  position: absolute;
+  display: flex;
+  left: 55%;
+  top: 89%;
   background: transparent;
-  color: #000000;
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.5s ;
+  border: 1.5px solid transparent;
+}
+
+.portifolioButton2:hover{
+  border: 1.5px solid #0086FF;
+}
+.portifolioButtonNew{
+  position: absolute;
+  display: flex;
+  left: 4%;
+  top: 2%;
+  font-size: 1em;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 600;
+  animation: animacaoBackground 5s infinite;
+  border: none;
+}
+
+.portifolioButton:hover {
+  background: transparent;
+  color: #fefeff;
   outline: 1.5px solid #0086ff;
   border-radius: 100px;
 }
 
+@media (max-width: 769px) {
+  .portifolioContainer h2 {
+    text-align: center;
+  }
 
-@media (max-width:769px){
-
-
-  .portifolioContainer h2{ text-align: center; }
-
-
-
-  .portifolioItens{
+  .portifolioItens {
     flex-direction: column;
   }
+}
+
+
+@keyframes animacaoBackground {
+  0% { background-color: #269aff; }
+  50% { background-color: #0086FF; }
+  100% { background-color: #269aff; }
+
 }
