@@ -25,6 +25,7 @@ function Portifolio() {
           <button className="portifolioButton2">
             <i class="bx bx-right-arrow-circle"></i>
           </button>
+          <button className="portifolioButtonNew"> New </button>
           <button className="portifolioButtonNew2"> Uno Restyling </button>
         </div>
         <div className="Teste">
@@ -35,6 +36,7 @@ function Portifolio() {
           <button className="portifolioButton2">
             <i class="bx bx-right-arrow-circle"></i>
           </button>
+          <button className="portifolioButtonNew"> New </button>
           <button className="portifolioButtonNew2"> Uno Restyling </button>
         </div>
 
@@ -47,7 +49,7 @@ function Portifolio() {
               <div class="control maximize"></div>
             </div>
           </div>
-          <div class="text">Commit...</div>
+          <div class="text">in production...</div>
         </div>
       </div>
     </div>

@@ -35,7 +35,9 @@ const about = () => {
             <div class="wave"></div>
             <div class="wave"></div>
             <div class="wave"></div>
-
+            <div className="icon1">
+            <i class='bx bxl-typescript' ></i>
+            </div>
             <div class="infotop">
               TypeScript
               <div class="name">
@@ -54,7 +56,9 @@ const about = () => {
             <div class="wave"></div>
             <div class="wave"></div>
             <div class="wave"></div>
-
+            <div className="icon1">
+            <i class='bx bxl-react'></i>
+            </div>
             <div class="infotop">
               React.js
               <div class="name">
@@ -73,7 +77,9 @@ const about = () => {
             <div class="wave"></div>
             <div class="wave"></div>
             <div class="wave"></div>
-
+            <div className="icon1">
+            <i class="ri-nextjs-line"></i>
+            </div>
             <div class="infotop">
               Next.js
               <div class="name">
