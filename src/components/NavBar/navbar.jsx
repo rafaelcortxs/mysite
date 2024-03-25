@@ -10,7 +10,7 @@ const navbar = () => {
           <ul>
   
             <li>
-              <a className="menuItem"> Home </a>
+              <a className="menuItem"> Início </a>
             </li>
             <li>
               <a className="menuItem"> Portifólio </a>

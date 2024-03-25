@@ -11,11 +11,7 @@ const Hero = () => {
           Lorem <span>Desenvolvedor Web</span> Lorem ipsum dolor sit amet. Lorem
           ipsum dolor sit amet.
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
-          tenetur.
-        </p>
-        <button className="heroButton">About Me </button>
+        <button className="heroButton"> Entre em Contato </button>
       </div>
     </div>
   );

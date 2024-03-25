@@ -65,7 +65,11 @@
 
 
 @media (max-width:769px){
-    .heroContent h2{
-    font-size: 40px;
+    .heroContent{
+     flex-direction: column;
+    }
+    .heroContainer h2{
+        flex-direction: column;
+        font-size: 3.1rem;
     }
 }
